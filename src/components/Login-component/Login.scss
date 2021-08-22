@@ -1,0 +1,100 @@
+.login{
+    .app-container{
+        display: flex;
+        width: 100%;
+        padding: 15px;
+        
+       
+    }
+    .login__left{
+        flex:0.5;
+        width: 100%;
+        margin-left: 12em;
+        
+        
+
+        h1{
+            font-size: 4em;
+            font-weight: lighter;
+            color: #2977C9;
+        }
+
+        .login__form{
+            display: flex;
+            margin-top: 2rem;
+            flex-direction: column;
+            width: 100%;
+            
+           
+
+            input{
+                border-radius: 10px;
+                padding: 10px;
+                border:1px solid lightgray;
+                margin-bottom: 5px;
+                align-self: flex-start;
+                width: 50%;
+            }
+
+            button{
+                padding: 10px;
+                border-radius: 10px;
+                background: #2977C9;
+                color: white;
+                width:25%;
+                border:1px solid lightgray;
+                cursor: pointer;
+                
+            }
+        }
+    }
+    .login__right{
+        flex:0.5;
+        margin-right: 50px;
+
+        img{
+            object-fit: contain;
+            height: 35em;
+            float: right;
+        }
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .login{
+        .app-container{
+            display: flex;
+            flex-direction: column;
+            padding:10px;
+            .login__left{
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                h1{
+                    font-size: 3em;
+                }
+                .login__form{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    input{
+                        align-self: unset;
+                    }
+                }
+            }
+            .login__right{
+                img{
+                    margin-top: 2em;
+                    object-fit: contain;
+                    height: 10em;
+                    float: unset;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                }
+            }
+        }
+    }
+}

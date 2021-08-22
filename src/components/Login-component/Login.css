@@ -1,0 +1,116 @@
+.login .app-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+
+.login .login__left {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  width: 100%;
+  margin-left: 12em;
+}
+
+.login .login__left h1 {
+  font-size: 4em;
+  font-weight: lighter;
+  color: #2977C9;
+}
+
+.login .login__left .login__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.login .login__left .login__form input {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin-bottom: 5px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 50%;
+}
+
+.login .login__left .login__form button {
+  padding: 10px;
+  border-radius: 10px;
+  background: #2977C9;
+  color: white;
+  width: 25%;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.login .login__right {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  margin-right: 50px;
+}
+
+.login .login__right img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 35em;
+  float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+  .login .app-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px;
+  }
+  .login .app-container .login__left {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .login .app-container .login__left h1 {
+    font-size: 3em;
+  }
+  .login .app-container .login__left .login__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .login .app-container .login__left .login__form input {
+    -ms-flex-item-align: unset;
+        -ms-grid-row-align: unset;
+        align-self: unset;
+  }
+  .login .app-container .login__right img {
+    margin-top: 2em;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 10em;
+    float: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=Login.css.map */

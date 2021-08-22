@@ -1,0 +1,76 @@
+.widget {
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  padding-bottom: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.widget .widget__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.widget .widget__header h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.widget .widget-Article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.widget .widget-Article:hover {
+  background: whitesmoke;
+}
+
+.widget .widget-Article .widget__ArticleLeft {
+  margin-right: 5px;
+}
+
+.widget .widget-Article .widget__ArticleLeft .MuiSvgIcon-root {
+  font-size: 15px;
+  color: #207ad1;
+}
+
+.widget .widget-Article .widget__ArticleRight {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.widget .widget-Article .widget__ArticleRight h4 {
+  font-size: 14px;
+}
+
+.widget .widget-Article .widget__ArticleRight p {
+  font-size: 12px;
+  color: gray;
+}
+
+@media only screen and (max-width: 750px) {
+  .widget {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Widget.css.map */

@@ -1,0 +1,19 @@
+.iconOption{
+    display: flex;
+    align-items: center;
+    color: gray;
+    padding: 10px 2vw;
+    
+    cursor: pointer;
+    h4{
+        margin-left: 0.5em;
+    }
+
+    &:hover{
+        color: black;
+        background: whitesmoke;
+        border-radius: 10px;
+
+
+    }
+}
